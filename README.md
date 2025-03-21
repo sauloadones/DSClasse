@@ -1,2 +1,2 @@
-# DSClasse
-Aula de DataScience
+# Introdução to Data Science
+
