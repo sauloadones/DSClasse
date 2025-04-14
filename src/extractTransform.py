@@ -20,3 +20,4 @@ def requestApiBcb(data: str) -> pd.DataFrame:
     df = pd.json_normalize(dados["value"])
     df["datatrimestre"] = pd.to_datetime(df["datatrimestre"])
     return df
+

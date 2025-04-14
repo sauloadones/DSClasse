@@ -26,3 +26,4 @@ def salvarMySql(
     engine = create_engine(f"mysql+pymysql://{usuario}:{senha}@{host}/{nome_banco}")
     df.to_sql(nome_tabela, con=engine, if_exists="replace", index=False)
     return
+

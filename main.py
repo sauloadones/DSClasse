@@ -9,3 +9,4 @@ dadosBcb = requestApiBcb('20191')
 salvarSqlite(dadosBcb, "src/datasets/etlbcb.db", "meios_pagamentos_tri")
 
 # salvarMySql(dadosBcb, "root", "root", "localhost", "etlbcb", "meios_pagamentos_tri")
+
